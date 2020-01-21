@@ -118,3 +118,103 @@ strong {
 #infographic-footer {
   padding-top: 3em;
 }
+
+/* after the artice----------------------------------------------------------- */
+
+#grid-boxes {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-gap: 5px;
+  grid-template-areas: "more-in-space most-popular" "more-in-space most-popular" "editors-picks most-popular";
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.more-in-space-container,
+.most-popular-container,
+.editors-picks-container {
+  border-top: 1px solid black;
+  margin-left: 35px;
+  padding-top: 20px;
+}
+
+.more-in-space-container {
+  grid-area: more-in-space;
+}
+
+.more-container {
+  -webkit-box-pack: justify;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  grid-gap: 0 20px;
+  justify-content: space-between;
+}
+
+.most-popular-container {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  float: left;
+  grid-area: most-popular;
+  margin: 0 10px 0 20px;
+  width: 260px;
+}
+
+section h4 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.most-popular-container p {
+  border-top: 1px solid lightgrey;
+  font-size: 17px;
+  padding: 15px 0;
+}
+
+.editors-picks-container {
+  grid-area: editors-picks;
+}
+
+.editor-container {
+  -webkit-box-pack: justify;
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.more-wrapper,
+.editor-wrapper,
+.more-wrapper img,
+.editor-wrapper img {
+  height: auto;
+  width: 300px;
+}
+
+.center {
+  justify-self: center;
+}
+
+.right {
+  justify-self: right;
+}
+
+.link-pic-descr {
+  text-align: right;
+}
+
+.link-pic-title {
+  font-size: 18px;
+}
+
+.link-pic-title,
+.most-popular-container p {
+  line-height: 1.3;
+  margin: 5px 0;
+}
+
+.link-pic-descr,
+.link-date {
+  color: #999;
+  font-size: 10px;
+  line-height: 1.5;
+}
