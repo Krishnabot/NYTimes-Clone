@@ -390,6 +390,8 @@ strong {
   justify-content: space-between;
 }
 
+/* aside-bar----------------------------------------------------------- */
+
 .most-popular-container {
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
@@ -404,7 +406,6 @@ section h4 {
   font-size: 16px;
   padding-bottom: 15px;
 }
-
 .most-popular-container p {
   border-top: 1px solid lightgrey;
   font-size: 17px;
