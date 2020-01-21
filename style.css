@@ -188,6 +188,14 @@ section div[class$="bar"] li a:hover {
   cursor: pointer;
 }
 
+#read-more-comment {
+    width: 40%;
+    height: 35px;
+    color: white;
+    background-color: #326891;
+  
+}
+
 section div[class$="bar"] li:not(.btn) a {
   background-color: #fff;
   border-radius: 50%;
@@ -220,7 +228,7 @@ section div[class$="bar"] li:nth-last-child(1) a::after {
   font-size: 13px;
   font-weight: 300;
   line-height: 17px;
-  padding: 20% 12.5% 3% 12.5%;
+  padding: 5% 12.5% 3% 12.5%;
 }
 
 img[alt="The Universe"] {
