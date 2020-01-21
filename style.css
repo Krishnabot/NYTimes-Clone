@@ -1,0 +1,58 @@
+/* ---------------------nav bar-------------------------------------- */
+
+nav {
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-box-pack: justify;
+  align-items: center;
+  background-color: white;
+  display: -webkit-box;
+  border: 1px solid #c5c5c5;
+  height: 50px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.the-newyork-times {
+  height: 50px;
+  width: 200px;
+}
+
+.top-stripe-left > * {
+  margin-left: 20px;
+}
+
+nav span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.top-stripe-right > * {
+  margin-right: 15px;
+}
+
+nav button {
+  background-color: #567b95;
+  border-radius: 4px;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  height: 33px;
+  line-height: 11px;
+  padding: 10px;
+  transition: all 0.5s linear;
+}
+
+nav button:hover {
+  background-color: #2c495e;
+  cursor: pointer;
+}
