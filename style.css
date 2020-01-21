@@ -1,6 +1,6 @@
 body {
   color: #333;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 22px;
   line-height: 27px;
   margin: 0;
@@ -132,7 +132,12 @@ section div [class$="bar"] {
   margin-top: 1em;
 }
 
-section p a {
+section h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+section h2 a {
   font-size: 20px;
   font-weight: bold;
   color: #000;
@@ -529,7 +534,7 @@ section div[class$="bar"] li a {
   font-size: 10px;
   justify-content: space-around;
   padding-top: 15px;
-  margin: 0 10%  40px 11%;
+  margin: 0 10% 40px 11%;
   width: 100%;
 }
 
