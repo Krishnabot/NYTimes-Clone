@@ -42,6 +42,8 @@
 
 ## Live Demo
 
+https://krishnabot.github.io/NYTimes-Clone/
+
 ## Authors
 
 👤 **Jaspreet Singh**
